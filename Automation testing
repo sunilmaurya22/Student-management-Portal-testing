@@ -1,0 +1,385 @@
+Project Name -School Portal									
+Module name- Manage									
+Created by- Sunil Maurya									
+Created date- 31/05/2023									
+Reviewed by - Agami Technologies									
+Reviewed date -									
+									
+Test  Scenario ID	Test Scenario	Test Id	Test Case description	Test Steps	Pre Condition	Post Condition	Excepted Result	Status	Comments
+TS001	"Verify the School Portal
+ Function and Page"	SP001	Click on School Details	1.Click on view details	"User reached on School detail 
+portal"	"User able to
+ see the Page"	"User reached on School detail 
+portal"	Pass	
+TS002	"Verify the School Portal
+Function and Page"	SP002	Click on School Details	"1.Click on view details
+2.Click on Facebook icon"	"It Shows the Login Page
+ of Facebook"	"Successfully Reached on FB login Page
+"	"Successfully reached on
+ FB home page"	Pass	
+TS003	"Verify the School portal
+Function and Page"	SP003	Click on School Details	"1.Click on view details
+2.Click on the Twitter icon"	"It Shows the Home Page
+ of Twitter"	"Successfully Reached on Twitter login Page
+"	"Successfully reached on
+ Twitter home page"	Pass	
+TS004	"Verify the School Portal
+Function and Page"	SP004	Click on School Details	"1.Click on view details
+2.Click on the Linkedin icon"	It Shows the School Linkedin Page	"Shows Linkedin  Page
+"	"User reached on 
+School Linkedin  page"	Pass	
+TS005	"Verify the School Portal
+Function and Page"	SP005	Click on School Details	"1.Click on view details
+2. Click on the 3 dots
+3.Click on School Facility"	"1. Enter Title 
+2.Enter Description
+3. Upload Image
+4. Click on submit School Facility."	User should able to Gallary	"Successfully reached on 
+Gallary"	Pass	
+TS006	"Verify the School Portal
+Function and Page"	SP006	Click on School Details	"1. Click on the 3 dots
+2.Click on Bank set up"	"1. Enter InstaMojo Api-Key 
+2.Enter InstaMojo Auth-Token
+3. Click on save."	Message pop up Bank setup completed successfully .	Completed successfully .	Pass	
+TS007	"Verify the School Portal
+Function and Page"	SP007	Click on School Details	"1. Click on the 3 dots
+2.Click on Edit "	"1. Click on upload to upload photo
+2.Enter School Name
+3.Enter Principal Name
+4.Enter D.O.E
+5.Enter address
+6.Enter zip code
+7.Enter Mobile
+8.Enter Phone
+9.Enter Fax
+10. Enter FB url
+11.Enter Linkedin url
+12.Enter Twitter url
+13.Enter something in about
+14.Click on cross button to add extension branch
+15.Click on Update."	User should able to see the updated page.	Updated successfully .	Pass	
+									
+TS008	"Verify the School Portal
+Function and Page"	SP008	Click on School Set up	Click on School Timing	"1.Click on select session
+2. Enter Subsession name
+3. Enter start time
+4.Enter end time
+5.Click on set."	"Users session is ready.
+portal"	Successfully Session build.	Pass	
+TS009	"Verify the School Portal
+Function and Page"	SP009	Click on School Set up	Click on Working days	"1.Select Working days.
+2.Click on submit."	A message pop up "School working days updated successfully."	 "School working days updated successfully."	Pass	
+TS010	"Verify the School Portal
+Function and Page"	SP010	Click on School Set up	"Click on student 
+attendance"	"1.Select period.
+2.Click on yes or no."	A message pop up "Attendance setting updated successfully."	Attendance setting updated successfully.	Pass	
+									
+TS011	"Verify the School Portal
+Function and Page"	SP011	Click on Session	Click on manage	"1.Click on add.
+2.Enter start time.
+3.Enter end time at least 12 month greater than start time
+4.Enter session name
+5.Select Is Current Yes or No.
+6.Click on add button."	"Updated successfully on session list"	Updated successfully	Pass	
+TS012	"Verify the School Portal
+Function and Page"	SP012	Click on Session	Click on manage	"1.Click on add.
+2.Enter start time.
+3.Enter end time at least 12 month less than start time
+4.Enter session name
+5.Select Is Current Yes or No.
+6.Click on add button."	A message pop up "End date must be greater then start date."	End date must be greater then start date.	Pass	
+TS013	"Verify the School Portal
+Function and Page"	SP013	Click on Session	Click on manage	"1.Click on add.
+2.Enter start time.
+3.Enter end time at least 12 month less than start time
+4.Enter session name
+5.Select Is Current Yes or No.
+6.Click on had -subsession 
+7.Enter subsession name
+8.Click on add button."	"Updated successfully on session list"	Updated successfully	Pass	
+TS014	"Verify the School Portal
+Function and Page"	SP014	Click on Session	Click on manage	Click on pencil icon for edit in session list.	"Updated successfully on session list"	Updated successfully	Pass	
+TS015	"Verify the School Portal
+Function and Page"	SP015	Click on Session	Click on manage	Click on dustbin icon for edit in session list if is current green.	"Deleted successfully on session list"	Deleted successfully	Pass	
+TS016	"Verify the School Portal
+Function and Page"	SP016	Click on Session	Click on manage	Click on dustbin icon for edit in session list if is current red.	A message pop up "can not deleted this sesssion,session is not empty"	Undeleted	Pass	
+									
+TS017	"Verify the School Portal
+Function and Page"	SP017	Click on Classes	Click on manage classes	"1.Enter the class name in add class
+2. click on add"	Class name should available in list	Class name is available	Pass	
+TS018	"Verify the School Portal
+Function and Page"	SP018	Click on Classes	Click on manage classes	"1.Enter the class name in add class
+2. click on clear"	Class name should erase	Class name is unavailable	Pass	
+TS019	"Verify the School Portal
+Function and Page"	SP019	Click on Classes	Click on manage classes	"1.Click on pencil icon
+2. Enter another name
+3.click on update"	Class name should updated	updated sucessfully	Pass	
+TS020	"Verify the School Portal
+Function and Page"	SP020	Click on Classes	Click on manage classes	"Press on right side  scroll bar up and down
+"	Scroll bar should move up and down	working sucessfully	Pass	
+TS021	"Verify the School Portal
+Function and Page"	SP021	Click on Classes	Click on manage classes	"1.Click on dustbin icon
+2.click on update"	Deleted if have no data	Deleted sucessfully	Pass	Cannot delete if class have assosiated data
+TS022	"Verify the School Portal
+Function and Page"	SP022	Click on Classes	Click on manage classes	"1.Click on update classes
+2.click on yes"	Class canot updated	can not update	Pass	
+TS023	"Verify the School Portal
+Function and Page"	SP023	Click on Classes	Click on manage classes	"1.Click on update classes
+2.click on No"	Class remane same	Remain same	Pass	
+TS024	"Verify the School Portal
+Function and Page"	SP024	Click on Classes	Click on manage classes	"1.Click on down arrow
+2.Select any number
+3. Click on update classes"	Classes remane same	Remain same	Pass	
+TS025	"Verify the School Portal
+Function and Page"	SP025	Click on Classes	Click on manage section	"1.Enter the section name in add section
+2. click on add"	Section name should available in list	Section added sucessfully	Pass	
+TS026	"Verify the School Portal
+Function and Page"	SP026	Click on Classes	Click on manage section	"1.Enter the section name in add section
+2. click on clear"	Section name should erased	Section erased successfully	Pass	
+TS027	"Verify the School Portal
+Function and Page"	SP027	Click on Classes	Click on manage section	"1.Enter the pencil icon.
+2. Enter new name
+3.Click on update"	Section name should changed by user	Section update successfully	Pass	
+TS028	"Verify the School Portal
+Function and Page"	SP028	Click on Classes	Click on manage section	"1.Enter the dustbin icon.
+2. Click yes to delete"	A message pop up "Delete successfully"	Section deleted successfully	Pass	Cannot delete if section have assosiated data
+TS029	"Verify the School Portal
+Function and Page"	SP029	Click on Classes	Click on manage section	"Press on right side  scroll bar up and down
+"	Scroll bar should move up and down	working sucessfully	Pass	
+TS030	"Verify the School Portal
+Function and Page"	SP030	Click on Classes	Click on class section association	"Press on right side  scroll bar up and down
+"	Scroll bar should move up and down	working sucessfully	Pass	
+TS031	"Verify the School Portal
+Function and Page"	SP031	Click on Classes	Click on class section association	"1.Select Session
+2.select class name
+3.click on add"	Following session details should listed below	Session details is available 	Pass	
+TS032	"Verify the School Portal
+Function and Page"	SP032	Click on Classes	Click on class section association	"1.Select Session
+2.select class name
+3.click on cancel"	Session details should be erased	Session details is erased	Pass	
+TS033	"Verify the School Portal
+Function and Page"	SP033	Click on Classes	Click on assign seat	1.Select Session	A message pop up "Please select your class"	Please select your class	Pass	
+TS034	"Verify the School Portal
+Function and Page"	SP034	Click on Classes	Click on assign seat	"1.Select Session
+2.select class"	All classes should be shown	Displayed all classes	Pass	
+TS035	"Verify the School Portal
+Function and Page"	SP035	Click on Classes	Click on assign seat	"1.Select Session
+2.select class
+3.Click on particular class"	Total Seats, Occupied Seats, Available Seats, Action, are available	Total Seats, Occupied Seats, Available Seats, Action	Pass	
+TS036	"Verify the School Portal
+Function and Page"	SP036	Click on Classes	Click on assign seat	"1.Select Session
+2.select class
+3.Click on particular class
+4.Click on pencile icon"	Edit for seats are available	Edit for seats are available	Pass	
+TS037	"Verify the School Portal
+Function and Page"	SP037	Click on Classes	Click on assign seat	"1.Select Session
+2.select class
+3.Click on particular class
+4.Click on dustbin icon
+5.Click on yes"	Deleted	Deleted sucessfully	Pass	Cannot delete if section have assosiated data
+TS038	"Verify the School Portal
+Function and Page"	SP038	Click on Classes	Click on setup period time map	"1.Select Session
+2.Select subsession
+3. choose classes
+4.Click on view"	Period time table should see	Sucessfully shown	Pass	
+TS039	"Verify the School Portal
+Function and Page"	SP039	Click on Classes	Click on setup period time map	"1.Select Session
+2.Select subsession
+3. choose classes
+4.Click on view
+5.Click on back button"	user should reached to previous page	Reached to previous page	Pass	
+TS040	"Verify the School Portal
+Function and Page"	SP040	Click on Classes	Click on VIEW ROUTINE & ASSIGN TEACHER	"1.Select Session
+2.Select subsession"	user should  see all the Assign and action	Reached to assignment page	Pass	
+TS041	"Verify the School Portal
+Function and Page"	SP041	Click on Classes	Click on VIEW ROUTINE & ASSIGN TEACHER	"1.Select Session
+2.Select subsession
+3.Click on assign
+4. select subject
+5.Select teacher
+6.Click on plus button to addmore
+7.Click on add"	All time table of subject and teacher should see	Assign teacher and subject to view routine	Pass	
+TS042	"Verify the School Portal
+Function and Page"	SP042	Click on Classes	Click on VIEW ROUTINE & ASSIGN TEACHER	"1.Select Session
+2.Select subsession
+3.Click on assign
+4. select subject
+5.Select teacher
+6.Click on plus button to addmore
+7.Click on add
+8.Click on back button"	User should able to move previous page	Reached to previous pages	Pass	
+									
+TS043	"Verify the School Portal
+Function and Page"	SP043	Click on Subject	Click on manage subject	"1.Enter subject
+2.Click on add"	Added subject should listed in subject list	Subject added sucessfully	Pass	
+TS044	"Verify the School Portal
+Function and Page"	SP044	Click on subject	Click on manage subject	"1.Enter subject
+2.Click on optional
+3.Click on add"	Added subject should listed in subject list	Subject addedd sucessfully	Pass	
+TS045	"Verify the School Portal
+Function and Page"	SP045	Click on subject	Click on manage subject	"1.Enter subject
+2.Click on optional
+3.Click on clear"	Subject name erased	Erased sucessfully	Pass	
+TS046	"Verify the School Portal
+Function and Page"	SP046	Click on subject	Click on manage subject	"1.Enter subject
+2.Click on optional
+3.Click on pencile icon
+4.Enter updated name
+5.Click on update"	Subject name update	Subject updated sucessfully	Pass	
+TS047	"Verify the School Portal
+Function and Page"	SP047	Click on subject	Click on manage subject	"1.Enter subject
+2.Click on optional
+3.Click on dustbin  icon
+4. Click on yes"	Subject name deleted	Subject deleted sucessfully	Pass	Cannot delete if section have assosiated data
+TS048	"Verify the School Portal
+Function and Page"	SP048	Click on subject	Click on manage subject	Click on scroll bar to up and down	user should able to do Scroll bar move up an down	scroll bar moving successfully	Pass	
+TS049	"Verify the School Portal
+Function and Page"	SP049	Click on subject	Click on manage class and subject	"1.Select session
+2.Click on associate subject"	user should able to see Subject displayed successfully	Subject displayed successfully	Pass	
+TS050	"Verify the School Portal
+Function and Page"	SP050	Click on subject	Click on manage class and subject	"1.Select session
+2.Click on associate subject
+3.click on pencil icon 
+4udate name
+5. click on update"	user should able to udate subject name 	Subject updated  successfully	Pass	
+TS051	"Verify the School Portal
+Function and Page"	SP051	Click on subject	Click on manage class and subject	"1.Select session
+2.Click on associate subject
+3.click on dustbin icon 
+4. Click on yes"	user should able to delete subject name 	Subject delete successfully	Pass	
+TS052	"Verify the School Portal
+Function and Page"	SP052	Click on subject	Click on manage class and subject	"1.Select session
+2.Click on associate subject
+3.click on dustbin icon 
+4. Click on yes"	user should able to delete subject name 	Subject delete successfully	Pass	
+									
+TS053	"Verify the School Portal
+Function and Page"	SP053	Click on Holiday	Click on manage	"1.Select session
+2.Enter holiday name
+3.Enter start day and enter end day 
+4. Click on add"	user should able to add  holiday 	Holiday added successfully	Pass	
+TS054	"Verify the School Portal
+Function and Page"	SP054	Click on Holiday	Click on manage	"1.Select session
+2.Enter holiday name
+3.Enter start day and enter end day 
+4. Click on add
+5.click on pencil icon 
+6.Enter new start date and end date
+7.enter new Name
+8.click on update"	A message pop up==user should able to update  holiday 	Holiday updated successfully	Pass	
+TS055	"Verify the School Portal
+Function and Page"	SP055	Click on Holiday	Click on manage	"1.Select session
+2.Enter holiday name
+3.Enter start day and enter end day 
+4. Click on add
+5.click on dustbin icon 
+6.Click yes to delete"	A message pop up==delete holiday sucessfully 	Holiday deleted successfully	Pass	
+TS056	"Verify the School Portal
+Function and Page"	SP056	Click on Holiday	Click on manage	"1.Select session
+2.Enter holiday name
+3.Enter start day and enter end day 
+4. Click on add
+5.click on speaker icon 
+6.Click yes to notify"	A message pop up==holiday notify sucessfully 	Holiday notify successfully	Pass	
+TS057	"Verify the School Portal
+Function and Page"	SP057	Click on Holiday	Click on manage	"1.Select session
+2.Enter date 
+3.Click on search"	Holiday session for this date	Holiday session for this date shown	Pass	
+									
+TS058	"Verify the School Portal
+Function and Page"	SP058	Click on Leave	Click on types	"1.Enter leave type
+2.Enter Description
+3.select option pay or without pay
+4click on add."	User should able to see his/ her leave in list	Leave  shown in the list	Pass	
+TS059	"Verify the School Portal
+Function and Page"	SP059	Click on Leave	Click on types	"1.Enter leave type
+2.Enter Description
+3.select option pay or without pay
+4click on add.
+5.click on clear"	User should able to erase 	Leave  erased	Pass	
+TS060	"Verify the School Portal
+Function and Page"	SP060	Click on Leave	Click on types	"1.Click on pencil icon
+2.Enter new name
+3.click on update"	A message pop up ==leave updated sucessfully	Leave updated sucessfully	Pass	
+TS061	"Verify the School Portal
+Function and Page"	SP061	Click on Leave	Click on types	"1.Click on dustbin icon
+2.click on yes"	A message pop up ==leave deleted sucessfully	Leave deleted sucessfully	Pass	
+TS062	"Verify the School Portal
+Function and Page"	SP062	Click on Leave	Click on policies	"1.Click on view leave
+2.Select session"	it will display all leave for the session	Leave display sucessfully 	Pass	
+TS063	"Verify the School Portal
+Function and Page"	SP063	Click on Leave	Click on requests	"1.Enter staff
+2.Enter leave type
+3.Enter start date and end date
+4.click on search"	it will display staff for the session	Leave display sucessfully 	Pass	
+TS064	"Verify the School Portal
+Function and Page"	SP064	Click on Leave	Click on requests	"1.Enter staff
+2.Enter leave type
+3.Enter start date and end date
+4.click on clear"	User will errase all the data	Leave clear sucessfully 	Pass	
+TS065	"Verify the School Portal
+Function and Page"	SP065	Click on Leave	Click on allocate leaves	"1.Enter user role
+2.click on search"	User will able to see leave according to his /her	all leave data displayed sucessfully 	Pass	
+									
+TS066	"Verify the School Portal
+Function and Page"	SP066	Click on Message	Click on add	"1.Enter Message tiltle
+2.Enter message for
+3.Enter type
+4.Enter message
+5.Click on add"	User will able to see message  his /her	all message  data displayed sucessfully 	Pass	
+TS067	"Verify the School Portal
+Function and Page"	SP067	Click on Message	Click on add	"1.Enter Message tiltle
+2.Enter message for
+3.Enter type
+4.Enter message
+5.Click on add
+6.serach date
+7.click on search"	User will able to see message  his /her on particular date	all message  date displayed sucessfully 	Pass	
+TS068	"Verify the School Portal
+Function and Page"	SP068	Click on Message	Click on add	"1.Enter Message tiltle
+2.Enter message for
+3.Enter type
+4.Enter message
+5.Click on add
+6.serach date
+7.click on search
+8.click on speaker icon
+9select notify option 
+10. click on notify
+"	User will able to notify message	message notified sucessfully 	Pass	
+TS069	"Verify the School Portal
+Function and Page"	SP069	Click on Message	Click on add	"1.Enter Message tiltle
+2.Enter message for
+3.Enter type
+4.Enter message
+5.Click on add
+6.serach date
+7.click on search
+8.click on pencile icon
+9.Enter new message  
+10. click on update
+"	User will able to update  message	message updated sucessfully 	Pass	
+TS070	"Verify the School Portal
+Function and Page"	SP070	Click on Message	Click on add	"1.Enter Message tiltle
+2.Enter message for
+3.Enter type
+4.Enter message
+5.Click on add
+6.serach date
+7.click on search
+8.click on dustbin icon
+9select yes option 
+"	A pop up message displayed== message deleted sucessfully	 message deleted sucessfully	Pass	
+									
+TS071	"Verify the School Portal
+Function and Page"	SP071	Click on news	Click on add	"1.Enter  tiltle
+2.Enter  date
+3.Enter description
+4.select heading 
+5.Click on add"	News displayed in the list	new displayed sucessfully	Pass	
+TS072	"Verify the School Portal
+Function and Page"	SP072	Click on news	Click on view	"1.Click on pencile icon
+2.Enter  new tilte and new date
+3.Enter new description
+4.select heading 
+5.Click on update"	A pop up message displayed== update sucessfully	updated  sucessfully	Pass	
